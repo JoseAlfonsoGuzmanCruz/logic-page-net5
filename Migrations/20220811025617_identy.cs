@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace logic_page_net5.Migrations
 {
-    public partial class inicio : Migration
+    public partial class identy : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

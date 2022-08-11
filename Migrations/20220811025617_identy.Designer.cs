@@ -10,15 +10,15 @@ using logic_page_net5.Datos;
 namespace logic_page_net5.Migrations
 {
     [DbContext(typeof(context))]
-    [Migration("20220809202155_inicio")]
-    partial class inicio
+    [Migration("20220811025617_identy")]
+    partial class identy
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.17")
+                .HasAnnotation("ProductVersion", "5.0.16")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("logic_page_net5.Modelos.Categoria", b =>
